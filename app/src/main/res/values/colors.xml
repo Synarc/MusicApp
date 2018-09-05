@@ -3,6 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorButton">#4d9f07</color>
-    <color name="colorButtonStroke">#ffffff</color>
+    <color name="colorButton">#02126b</color>
+    <color name="colorButtonDisbale">#81add3</color>
+    <color name="colorTextView">#cc310abc</color>
+    <color name="colorEditText">#d6e3e7</color>
+    <color name="colorButtonStroke">#b7e5f9</color>
 </resources>
