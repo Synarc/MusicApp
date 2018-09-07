@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "492527535100",
+    "firebase_url": "https://musicapp-8baaa.firebaseio.com",
+    "project_id": "musicapp-8baaa",
+    "storage_bucket": "musicapp-8baaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492527535100:android:ddb88881d6ed5806",
+        "android_client_info": {
+          "package_name": "isaacsilas05.gmail.com.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492527535100-e35ggmh7omkl4ae3tffflqvg8glej2m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "isaacsilas05.gmail.com.musicapp",
+            "certificate_hash": "b787b1e8f144c66db5c986e66a1c143b1301fe79"
+          }
+        },
+        {
+          "client_id": "492527535100-drciu5f6bufonl45qt50bu399cl3la7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "isaacsilas05.gmail.com.musicapp",
+            "certificate_hash": "27926793033846217192b06adfdba68dfa0c8c57"
+          }
+        },
+        {
+          "client_id": "492527535100-e5u3j006dkhce98uis7n6bi64lc8ga9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwMbk3937mNs6q8ysR8ug6oECtpnz4DYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492527535100-e5u3j006dkhce98uis7n6bi64lc8ga9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

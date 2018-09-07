@@ -12,17 +12,14 @@
         android:gravity="center"
         android:textColor="@color/colorButtonStroke"
 
-        android:fontFamily="cursive"
         android:textSize="20sp"
         android:text="@string/song_title"/>
 
     <TextView
         android:id="@+id/tvArtist"
-        android:fontFamily="cursive"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorButtonStroke"
-
         android:text="@string/artist"
         android:gravity="center"
         android:layout_below="@+id/tvSongTitle"/>
@@ -34,7 +31,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/colorButtonStroke"
-        android:fontFamily="cursive"
         android:text="@string/song_title"/>
 
 </RelativeLayout>
