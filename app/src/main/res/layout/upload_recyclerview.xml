@@ -13,7 +13,7 @@
         android:textColor="@color/colorButtonStroke"
 
         android:fontFamily="cursive"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:text="@string/song_title"/>
 
     <TextView
