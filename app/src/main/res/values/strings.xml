@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MusicApp</string>
     <string name="sign_in">Sign In</string>
+    <string name="album_name">Album Name</string>
+    <string name="choose_file">choose file</string>
+    <string name="type_song_name">Type Song Name</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist">Artist</string>
+    <string name="upload">Upload</string>
 </resources>
