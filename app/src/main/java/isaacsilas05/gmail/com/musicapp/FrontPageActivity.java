@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class FrontPageActivity extends AppCompatActivity {
 
-    private Button signInButton;
+    private Button signInButton, download;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +23,17 @@ public class FrontPageActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        download = findViewById(R.id.demoDownload);
+
+        download.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FrontPageActivity.this,ViewDownloadedMusicActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

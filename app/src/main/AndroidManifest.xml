@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UploadMusicActivity"></activity>
+        <activity android:name=".UploadMusicActivity" />
+        <activity android:name=".DownloadMusicActivity" />
+        <activity android:name=".ViewDownloadedMusicActivity"></activity>
     </application>
 
 </manifest>

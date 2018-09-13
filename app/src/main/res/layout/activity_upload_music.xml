@@ -29,6 +29,7 @@
             android:id="@+id/chooseFile"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:textSize="10sp"
             android:background="@drawable/button_appearence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,13 +45,12 @@
            android:layout_marginTop="15dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:layout_marginStart="15dp"
-           android:layout_toEndOf="@id/chooseFile"
+           android:layout_marginStart="140dp"
            android:hint="@string/type_song_name"/>
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/layer2"
         android:layout_below="@id/topLayer"
         android:layout_width="match_parent"
@@ -92,12 +92,15 @@
             />
 
         <EditText
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Featured Artist"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:background="@drawable/edittext"
-            android:layout_toEndOf="@id/upload" android:layout_marginStart="37dp"/>
+            android:layout_marginStart="140dp"/>
 
     </RelativeLayout>
 
