@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+   android:background="@drawable/textvie"
+    android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:id="@+id/llayoutrvd"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/rvdsong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="cursive"
+                android:text="Song"/>
+
+            <TextView
+                android:id="@+id/rvdartist"
+                android:layout_width="match_parent"
+                android:fontFamily="cursive"
+                android:layout_height="wrap_content"
+                android:text="Artist"/>
+
+            <TextView
+                android:id="@+id/rvdAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Album"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textvie"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@color/colorButtonStroke"
+            android:layout_marginEnd="20dp" />
+</RelativeLayout>
